@@ -1,0 +1,16 @@
+1. WHat are the libraries u have used?
+2. For plotting what libraries u prefer?
+3. Sort a datframe in descending order?
+4. Create a factorial code? Function?
+5. Which Random Forest parameters can be tuned to enhance the predictive power of the model
+6. handling duplicate values?
+7. Standard data missing marker in python?
+8. Difference between tuples and lists, dictionary
+9. what is range? how to access every 3 rd element?
+10. what is oop? main characteristics of OOP?
+11. List comprehension? Example?
+12. a+b ?
+13. a-b?
+14. define a function to create the fibonacci series?\
+15 lambda, map16. What would you use for Logistic regression, from which library
+16 

@@ -1,0 +1,26 @@
+1. Steps in logistic regression/linear regression
+2. Difference between linear and logistic regression
+3. Linear regression assumptions, what if the assumptions are violated, 
+what to do when assumptions are violated
+4. Handling missing values
+5. Several dimensionality reduction technique
+6. What will be the differenet variable selection techniques for LR and LinR, how to choose the final variables
+7. Final model selection
+8. Difference between stepwise, forward and backward. their pros and cons. when to use what?
+9. VIF, other method of handling multicolinarity
+10. difference of linear regression and Auto regressive method
+11. Wald chi square, t value when to use?
+12. AUC- ROC curve and its uses, KS, Rank ordering, if breaks what to do, concordance and discordance, confusion matrix, sensitivity, specificty,?
+13. Gain and lift charts
+14. colinearity between continuous and dummy/binary variables, correlation between two dummy variables
+15. WOE and IV
+16. What fishers scoring do in logistic regression?
+17. How coeffient estimates are calculated in LR, LinR
+18. Proc logistic option questions - descending, collin, how to calculate VIF
+19. How decision tree works, background variable selection method?
+20. Random forest hyperparameters?
+21. Classification vs Regression in decision tree, difference?
+22. how to optimize DT/RF to minimize error?
+23. Any other techniques you know?
+24. clustering techniques, difference with LR, LinR
+25. 

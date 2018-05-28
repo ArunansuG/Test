@@ -1,0 +1,45 @@
+Suppose a=. and b=5 .What is the value of c=a+b and d=sum(a,b)?
+What is the difference between merge and sql join?
+Suppose you have two dates say your date of birth and your anniversary both in mmddyy format. How sas stores these two dates and how sas writes these values? (Inductive EXEL)
+What does symbolgen do?
+Intck and Intnx?
+What is the most common mistake you do very often While running a sas code? How do you resolve them?
+In how many ways you can define a macro? 
+What is the difference between format and informat?
+What is the difference between proc summary and proc means?
+What does nway do in proc freq? What is the meaning of _TYPE_ in proc freq?
+Suppose you have two integers in two macro variables. How you would add them? If one number is a floating number then what macro function you will use?
+What is the difference between proc means and proc univariate?
+What is the difference between MACRO and MACRO VARIABLES?
+What is the difference between proc report and proc tabulate?
+What is the difference between proc append and data set?
+What is the difference between rename and label?
+How you will get a sum value for same observation in a data step without using a proc summary or proc means?
+Do you know self join? Give an example.
+State the difference between if and where.
+What is the difference between where and having?
+What is the difference between primary key and unique key?
+Do you know store procedure? What is that?
+Which sas function advance or decrease a date?
+What does like function do?
+What does sysfunc do?
+How would you  create a data set which will take only odd number of observations
+How would you create dataset which consists of last 10 observations from a dataset?
+How would you create a datasets having some specific observation number like 10,23,100,200 etc?
+How will you assign all the variables from a dataset in macro variables?
+How will you  get the variable names from a dataset in alphabetic order?(varnum)
+How will you assign the total number of observation of a dataset into a macro variable?
+If there are 10 observations in a datasets, how would you assign 10 observations to 10 variables?
+Suppose there are 100 variables and one observation in a dataset. Create a new dataset having 100 observations.
+I want to choose only the duplicate id records from a sas data, like for 1,2,2,3,4,4 we want to choose only 2,2, and 4,4? how?
+X=” abc ijk”, how to get the output “c i”
+y=”abc jui jhg klo”, output z=”klo”
+r=”tr.klp._u” output=”tr_klp__u”
+compress
+31st dec 1959 – how will sas store this
+input and put  related
+infile , missover, truncover, dsd
+data null
+call symput, call symputx, call symget
+&&&x
+
