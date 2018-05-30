@@ -1,0 +1,14 @@
+Process : BPO Services - iQMS Orientation Assessment_elementary_CAS (v:1.0)	43114	30-May-2018	90
+Process : GDPR_WBT (v:1.0)	                                                55220	11-May-2018	80
+Process : HSE - Occupational Health & Safety @ TCS_elementary_WBT (v:1.0)	48150	07-May-2018	80
+Process : Data Privacy_WBT (v:1.0)	                                        53965	07-May-2018	100
+Compliance and Governance: Anti Bribery and Corruption Awareness - Quiz (v:1.0)	2327	04-May-2018	87.67
+Awareness on Policy for Prevention of Sexual Harassment _LCS_WBT (v:1.0)	2735	04-May-2018	90
+Introduction to Safety First - WBT (v:1.0)	                                49975	04-May-2018	0
+Process : Fire Safety Awareness_elementary_WBT (v:1.0)	                        8159	03-May-2018	90
+Process : Intellectual Property Rights - An Introduction_WBT (v:1.0)	        53993	03-May-2018	90
+Process : BPO Services - iQMS Orientation Training_elementary_WBT (v:1.0)	20799	02-May-2018	0
+Process : Tata Code of Conduct: Awareness and Allegiance (v:1.0)	        21939	02-May-2018	100
+Compliance and Governance : Anti Bribery and Corruption Awareness - WBT (v:1.0)	49587	02-May-2018	0
+iSecurity Quiz (v:1.0)	                                                        7408	30-Apr-2018	96
+Information Security Awareness Course (v:1.0)	                                43893	28-Apr-2018	0
