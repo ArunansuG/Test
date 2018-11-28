@@ -1,0 +1,102 @@
+n = 7
+letters = ['a', 'e', 'i', 'g', 'r', 'p', 'q']
+top = ['r', 'a', 'x', 'a', 'i', 'e', 'x']
+bottom = ['x', 'r', 'e', 'r', 'x', 'i', 'a']
+left = ['x', 'g', 'r', 'e', 'x', 'i', 'e']
+right = ['i', 'r', 'x', 'a', 'g', 'e', 'x']
+i, j = 0, 0
+
+
+def place(letter, i, j):
+    c1 = True
+    if rows[i][letter] == 1 or cols[j][letter] == 1:
+        return False # This letter is already populated in the current row or column
+    
+    flag = False
+    for k in range(i):
+        if matrix[k][j] not in  [-1, 'p', 'q']:
+            flag = True  # This is not the first letter from top
+    if flag == False:  # This is the first letter from top
+        if top[j] != 'x' and letter != top[j]: # Letter does not match to the one at top
+            return False
+    
+    flag = False
+    check = list(set(letters) - set(['p', 'q', letter]))
+    for x in check:
+        if cols[j][x] == 0:
+            flag = True # This is not the bottommost letter
+            #break
+            if bottom[j] == letter:
+                return False
+    if flag == False: # This is the bottommost letter
+        if bottom[j] != 'x' and letter != bottom[j]: # Letter does not match to the one at right
+            return False
+    
+    flag = False
+    for k in range(j):
+        if matrix[i][k] not in  [-1, 'p', 'q']:
+            flag = True  # This is not the first letter from left
+    if flag == False:  # This is the first letter from left
+        if left[i] != 'x' and letter != left[i]: # Letter does not match to the one at left
+            return False
+    
+    flag = False
+    check = list(set(letters) - set(['p', 'q', letter]))
+    for x in check:
+        if rows[i][x] == 0:
+            flag = True # This is not the rightmost letter
+            #break
+            if right[i] == letter:
+                return False
+    if flag == False: # This is the rightmost letter
+        if right[i] != 'x' and letter != right[i]: # Letter does not match to the one at right
+            return False
+    
+    return True
+
+
+def solution(i, j, matrix):
+    for letter in letters:
+        current = matrix[i][j]
+        if current != -1:
+            rows[i][current] = 0
+            cols[j][current] = 0
+            matrix[i][j] = -1
+        if (letter == 'p' and rows[i]['p'] == 0 and cols[j]['p'] == 0) or (letter == 'q' and rows[i]['q'] == 0 and cols[j]['q'] == 0) or \
+        (letter not in ['p', 'q'] and place(letter, i, j)):
+            matrix[i][j] = letter
+            rows[i][letter] = 1
+            cols[j][letter] = 1
+            if i == n-1 and j == n-1:
+                print("\n\nsoution occurred.\n")
+                for a in range(n):
+                    print("\n")
+                    for b in range(n):
+                        print(matrix[a][b],end = ' ')
+            elif j < n-1: # not the last column
+                solution(i, j+1, matrix)
+            elif j == n-1: # Last column
+                solution(i+1, 0, matrix)
+    current = matrix[i][j]
+    if current != -1:
+        rows[i][current] = 0
+        cols[j][current] = 0
+        matrix[i][j] = -1
+
+
+d = {'a': 0, 'e': 0, 'i': 0, 'g': 0, 'r': 0, 'p': 0, 'q': 0}
+rows = list()
+for i in range(n):
+    rows.append(d.copy())
+cols = list()
+for i in range(n):
+    cols.append(d.copy())
+
+matrix = list()
+for a in range(n):
+    b = list()
+    matrix.append(b)
+    for c in range(n):
+        matrix[a].append(-1)
+
+solution(0, 0, matrix)
